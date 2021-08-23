@@ -1,0 +1,24 @@
+{
+  "name": "language-tenable-audit",
+  "version": "0.1.0",
+  "description": "This is a language package for use with Tenable audit files.",
+  "keywords": [
+    "language",
+    "grammar",
+    "Tenable",
+    "audit",
+    "Nessus",
+    "Tenable.io",
+    "Tenable.SC"
+  ],
+  "author": "Benjamin M. Singleton",
+  "repository": "https://github.com/bsinglet/language-tenable-audit",
+  "license": "GPL-3.0-or-later",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0",
+    "node": "*"
+  },
+  "dependecies": {
+    "tree-sitter-tenable-audit": "^1.0.0"
+  }
+}
